@@ -1,7 +1,25 @@
 aid: dil-mil
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dil-mil.png
 name: Dil Mil
-description: Dil Mil is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dil Mil is a South Asian dating and matchmaking platform built to help singles find meaningful,
+  culturally-grounded connections. Its mobile app offers matching algorithms, interest-based community
+  chat rooms, global matching that reaches beyond geography, and a VIP Elite membership tier with premium
+  features such as unlimited likes, rewind, and advanced filtering. The company markets itself under the
+  tagline "Find Something Real" and highlights thousands of documented success stories among South Asian
+  singles worldwide. Dil Mil is a consumer mobile application with no public developer or API surface;
+  it was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for tracking.
 url: https://raw.githubusercontent.com/api-evangelist/dil-mil/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Dating
+- Social
+- Matchmaking
+- South Asian
+- Mobile App
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dil-mil-domain-security.yml
+- type: LLMsTxt
+  url: llms/dil-mil-llms.txt
 - type: Website
   url: https://dilmil.co
+- type: Support
+  url: https://dilmil.helpshift.com/hc/en/3-dil-mil/
+- type: Blog
+  url: https://dilmil.co/blog
+- type: TermsOfService
+  url: https://dilmil.co/terms-of-use
+- type: PrivacyPolicy
+  url: https://dilmil.co/privacy-policy
+- type: About
+  url: https://dilmil.co/about
+- type: Careers
+  url: https://dilmil.co/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

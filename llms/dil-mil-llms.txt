@@ -1,0 +1,20 @@
+# Dil Mil
+
+> Dil Mil is a South Asian dating and matchmaking platform that helps singles find meaningful, culturally-grounded connections. Its mobile app offers matching algorithms, interest-based community chat rooms, global matching, and a VIP Elite membership tier. Tagline: "Find Something Real." Dil Mil is a consumer mobile application with no public developer or API surface.
+
+## Company
+- [Website](https://dilmil.co)
+- [About](https://dilmil.co/about)
+- [Blog](https://dilmil.co/blog)
+- [Careers](https://dilmil.co/careers)
+
+## Support
+- [Help Center](https://dilmil.helpshift.com/hc/en/3-dil-mil/)
+
+## Legal
+- [Privacy Policy](https://dilmil.co/privacy-policy)
+- [Terms of Use](https://dilmil.co/terms-of-use)
+
+## Notes
+- No public API, OpenAPI, SDK, MCP server, or webhook surface is published as of 2026-07-18.
+- Added to the API Evangelist network as a 500 Global portfolio company for tracking.
